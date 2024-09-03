@@ -1,0 +1,266 @@
+<!--modal-01-->
+<div class="modal fade" id="exampleModal01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-0" style="width: 480px;">
+        <div class="modal-body p-5 rounded-0">
+            <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img class="w-141 h-141 object-fit-cover" src="../assets/images/emir.jpeg" alt="emir">
+                </div>
+                <div class="flex-grow-1 ms-3 d-flex flex-column">
+                    <div class="box d-flex justify-content-between">
+                        <div class="number text-color05">#1</div>
+                        <button type="button" class="btn-close text-color05" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="account-number">Admin</div>
+                    <div class="name fs-24 fw-bold">Emir Wicks</div>
+                    <div class="email fs-14 text-color04">emir.wicks@mail.com</div>
+                    <div>
+                      <button class="box2 border-0 w-100 d-flex justify-content-between mt-auto px-2 py-1 collapsed arrow-transform-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                        <div class="verify">
+                          Verified
+                        </div>
+                        <span class="material-symbols-outlined text-color07 ms-auto arrow-transform">
+                            keyboard_arrow_down
+                        </span>
+                      </button>
+                      <div id="collapse1" class="accordion-collapse collapse" >
+                        <div class="accordion-body">
+                          <div class="btn-box w-100 d-flex justify-content-between pt-5">
+                            <button class="btn text-color06 border-color06 px-5 fw-bold" type="button">
+                              Deactivate
+                            </button>
+                            <button class="btn btn-color07 px-5 fw-bold" type="button">
+                              Edit
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-01-->
+
+  <!--modal-02-->
+  <div class="modal a fade" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-0" style="width: 480px; height: 736px;">
+        <div class="modal-body p-0 rounded-0 border border-bottom-0 border-color03">
+            <div class="flex-grow-1 d-flex flex-column">
+                
+                <div class="box d-flex justify-content-between align-items-center p-5 border border-bottom-0 border-color03">
+                    <div class="number text-color05 fs-24 fw-bold">Edit Admin</div>
+                    <button type="button" class="btn-close text-color05" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+              
+                <div class="p-5 pt-0 border border-color03">
+                  <div><h3 class="fs-20 fw-bold mb-3">Account</h3></div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-14">Name</label>
+                    <input type="text" class="form-control p-3" style="height: 50px;" id="exampleFormControlInput1" placeholder="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-14">Email</label>
+                    <input type="email" class="form-control p-3" style="height: 50px;" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+            
+                  <hr class="mb-3">
+            
+                  <div><h3 class="fs-24 fw-bold mb-3">Verification</h3></div>
+                  <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-3">
+                      <span class="material-icons text-color07">
+                        check_circle
+                      </span>
+                      <p class="fw-bold">Verified</p>
+                      <time class="ms-auto fs-14 text-color05">2020/4/12</time>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input class="form-control p-3" style="height: 50px;" type="text" placeholder="Send Verification Mail" aria-label="Disabled input example" disabled>
+                  </div>
+            
+                  <hr>
+            
+                  <h3 class="fs-20 fw-bold mb-3">Access Level</h3>
+                  <select class="form-select mb-3" style="height: 50px;" id="select1" aria-label="Default select example">
+                    <option selected>Admin</option>
+                    <option value="1">Low</option>
+                    <option value="2">Mid</option>
+                    <option value="3">High</option>
+                  </select>
+            
+                  <hr class="mb-3">
+            
+                  <h3 class="fs-20 fw-bold mb-3">Custom Access</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Lecture">
+                    <label class="form-check-label mb-3 text-color05" for="Lecture">
+                      Lecture
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Coupon">
+                    <label class="form-check-label mb-3 text-color05" for="Coupon">
+                      Coupon
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Message">
+                    <label class="form-check-label mb-3 text-color05" for="Message">
+                      Message
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Setting">
+                    <label class="form-check-label mb-3 text-color05" for="Setting">
+                      Setting
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Task Menu">
+                    <label class="form-check-label mb-3 text-color05" for="Task Menu">
+                      Task Menu
+                    </label>
+                  </div>
+            
+                  <hr class="mb-3">
+            
+                  <div><h3 class="fs-20 fw-bold mb-3">Deactivate Account</h3></div>
+                  <div class="mb-3">
+                    <div class="d-flex gap-2">
+                      <span class="material-icons text-color06">
+                        report_problem
+                      </span>
+                      <p class="text-color06">This cannot be undone!</p>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input class="form-control text-color06 border-color06 text-center bg-color01" type="text" placeholder="Deactivate This Account" aria-label="Disabled input example" value="Disabled readonly input" disabled>
+                  </div>
+                </div>
+            </div>
+          </div>
+        <div class="modal-footer gap-3 border border-top-0 border-color03">
+          <button class="collapse-btn ms-auto my-3 border border-color07 fs-16 fw-bold rounded-1 px-5 py-2 bg-hover" type="button" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <button class="collapse-btn me-4 my-3 border border-color07 bg-color07 text-color01 fw-bold rounded-1 px-5 py-2" type="button">
+            Update
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-02-->
+
+  <!--modal-03-->
+  <div class="modal a fade" id="exampleModal03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-0" style="width: 480px; height: 736px;">
+        <div class="modal-body p-0 rounded-0 border border-bottom-0 border-color03">
+            <div class="flex-grow-1 d-flex flex-column">
+                
+                <div class="box d-flex justify-content-between align-items-center p-5 border border-bottom-0 border-color03">
+                    <div class="number text-color05 fs-24 fw-bold">Edit Admin</div>
+                    <button type="button" class="btn-close text-color05" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+              
+                <div class="p-5 pt-0 border border-color03">
+                  <div><h3 class="fs-20 fw-bold mb-3">Account</h3></div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-14">Name</label>
+                    <input type="text" class="form-control p-3" style="height: 50px;" id="exampleFormControlInput1" placeholder="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-14">Email</label>
+                    <input type="email" class="form-control p-3" style="height: 50px;" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+            
+                  <hr class="mb-3">
+            
+                  <div><h3 class="fs-24 fw-bold mb-3">Verification</h3></div>
+                  <div class="mb-3">
+                    <div class="d-flex mb-3">
+                      <span class="material-icons text-color06">
+                        report_problem
+                      </span>
+                      <p class="fw-bold">Unverified</p>
+                    </div>
+                    <input class="form-control p-3 text-color07 border-color03 text-center bg-color01" style="height: 50px;" type="text" placeholder="Deactivate This Account" aria-label="Disabled input example" value="Disabled readonly input" disabled>
+                  </div>
+            
+                  <hr>
+            
+                  <h3 class="fs-20 fw-bold mb-3">Access Level</h3>
+                  <select class="form-select mb-3 text-color04" style="height: 50px;" id="select1" aria-label="Default select example " disabled>
+                    <option selected>-Choose access level-</option>
+                    <option value="1">Low</option>
+                    <option value="2">Mid</option>
+                    <option value="3">High</option>
+                  </select>
+            
+                  <hr class="mb-3">
+            
+                  <h3 class="fs-20 fw-bold mb-3">Custom Access</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Lecture">
+                    <label class="form-check-label mb-3 text-color05" for="Lecture">
+                      Lecture
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Coupon">
+                    <label class="form-check-label mb-3 text-color05" for="Coupon">
+                      Coupon
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Message">
+                    <label class="form-check-label mb-3 text-color05" for="Message">
+                      Message
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Setting">
+                    <label class="form-check-label mb-3 text-color05" for="Setting">
+                      Setting
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Task Menu">
+                    <label class="form-check-label mb-3 text-color05" for="Task Menu">
+                      Task Menu
+                    </label>
+                  </div>
+            
+                  <hr class="mb-3">
+            
+                  <div><h3 class="fs-20 fw-bold mb-3">Deactivate Account</h3></div>
+                  <div class="mb-3">
+                    <div class="d-flex gap-2">
+                      <span class="material-icons text-color06">
+                        report_problem
+                      </span>
+                      <p class="text-color06">This cannot be undone!</p>
+                    </div>
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input class="form-control text-color06 border-color06 text-center bg-color01" type="text" placeholder="Deactivate This Account" aria-label="Disabled input example" value="Disabled readonly input" disabled>
+                  </div>
+                </div>
+            </div>
+          </div>
+        <div class="modal-footer gap-3 border border-top-0 border-color03">
+          <button class="collapse-btn ms-auto my-3 border border-color07 fs-16 fw-bold rounded-1 px-5 py-2 bg-hover" type="button" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <button class="collapse-btn me-4 my-3 border border-color07 bg-color07 text-color01 fw-bold rounded-1 px-5 py-2" type="button">
+            Update
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-03-->

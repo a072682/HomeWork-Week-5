@@ -1,0 +1,106 @@
+
+
+.a-text-set{
+    font-family: "Lato", "Roboto Mono",sans-serif;
+}
+.navbar-brand-fs-set1{
+    font-size: 24px;
+}
+#leave-message-textarea{
+    width: 100%; 
+    height:100%;
+    background-color: #ffffff;
+    outline: 0;
+    color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+[contentEditable=true]:empty:not(:focus)::before{
+    content:attr(data-text);
+  }
+
+.border-hover:hover{
+    border-left: 4px solid #198754;
+}
+.color-hover:hover{
+    color:$color07;
+}
+.bg-hover{
+    background: $color01;
+    color:$color07;
+}
+.bg-hover:hover{
+    background: $color07;
+    color:$color01;
+}
+.bg-hover:active{
+    background: $color07;
+    color:$color01;
+}
+
+.card-list{
+    padding-left: 32px;
+}
+
+.content{
+    width: 984px;
+}
+.aside{
+    width: 296px;
+    background-color: $color02;
+}
+
+.main-content-in{
+    width: calc(100% - 364px);
+    margin-left: auto;
+    padding-right: 32px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.px-16{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.w-141{
+    width:141px;
+}
+.h-141{
+    height: 141px;
+}
+.main-title{
+    width: 100%;
+}
+.main-title-p-set{
+    padding: 12px;
+}
+
+.main-card-list{
+    padding: 16px;
+}
+
+.arrow-transform-btn:active , .arrow-transform-btn:hover{
+    .arrow-transform{
+        transition: 0.2s ease-in-out;
+        transform: rotate(-180deg);
+    }
+}
